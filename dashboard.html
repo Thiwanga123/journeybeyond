@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="dashboard.css">
+    
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <!-- <img src="logo.jpg" > -->
+            <h2>JOURNEY BEYOND</h2>
+        </div>
+        <ul>
+            <li class="active"><i class="fas fa-tachometer-alt"></i> Dashboard</li>
+            <li><i class="fa-solid fa-location-dot"></i>Trips</li>
+            <li><i class="fa-solid fa-users"></i> Service Providers</li>
+            <li><i class="fa-solid fa-suitcase-rolling"></i>Travelers</li>
+            <li><i class="fas fa-file-alt"></i> Income Report</li>
+            <li><i class="fas fa-envelope"></i> Messages</li>
+            <li><i class="fas fa-cog"></i> Settings</li>
+            <li><i class="fas fa-sign-out-alt"></i> Sign Out</li>
+
+        </ul>
+     
+    </div>
+
+    <div class="main-content">
+        <header>
+            <div class="header-title">
+                <h2>Admin Dashboard</h2>
+            </div>
+            <div class="header-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search here...">
+                
+            </div>
+            <div class="header-profile">
+                <div class="notification">
+                    <i class="fa-regular fa-bell"></i>
+                </div>
+                <div class="profile-pic">
+                    <i class="fa-solid fa-user-large"></i>
+                </div>
+            </div>
+        </header>
+
+        <div class="dashboard-cards">
+            <div class="card1">
+                <i class="fa-solid fa-route"></i>
+                <h3>Total Trips</h3>
+                
+            </div>
+            <div class="card2">
+                <i class="fa-solid fa-coins"></i>
+                <h3>Total Income</h3>
+                
+            </div>
+            <div class="card3">
+                <i class="fa-solid fa-person-hiking"></i>
+                <h3>Total Travelers</h3>
+                
+            </div>
+            <div class="card4">
+                <i class="fa-solid fa-users"></i>
+                <h3>Total Service Providers</h3>
+                
+            </div>
+        </div>
+
+        <div class="charts">
+            <div class="chart">Total Revenue</div>
+            <div class="chart">Customer Satisfaction</div>
+            <div class="calendar">
+                <div id="calendar-header">
+                    <button id="prev-month">‹</button>
+                    <h2 id="calendar-title">August 2024</h2>
+                    <button id="next-month">›</button>
+                </div>
+                <table id="calendar-table">
+                    <thead>
+                        <tr>
+                            <th>Sun</th>
+                            <th>Mon</th>
+                            <th>Tue</th>
+                            <th>Wed</th>
+                            <th>Thu</th>
+                            <th>Fri</th>
+                            <th>Sat</th>
+                        </tr>
+                    </thead>
+                    <tbody id="calendar-body">
+                        <script src="calendar.js"></script>
+
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="chart">Sales Mapping by Country</div>
+            <div class="chart">Volume vs Service Level</div>
+        </div>
+    </div>
+</body>
+</html>
