@@ -17,10 +17,9 @@
 
         }
 
-        .section1{
+        .section1, .section2 , .section3 ,.section4{
             width:45px;
             height: 26px;
-            left:60px;
             font-family: 'Inter';
             font-weight: 500;
             font-size:15px;
@@ -28,42 +27,30 @@
             padding: 17px;
 
         }
-
-        .section2{
-            width:45px;
-            height: 26px;
-            padding: 17px;
-            left:400px;
-            font-family: 'Inter';
-            font-weight: 500;
-            font-size:15px;
-            line-height: 26px;
+        .row{
+            width:800px;
+            height:80px;
+            color:rgba(255, 255, 255, 1);
+           
 
         }
 
-        .section3{
-            width:45px;
-            height: 26px;
-            padding: 17px;
-            left:900px;
-            font-family: 'Inter';
-            font-weight: 500;
-            font-size:15px;
-            line-height: 26px;
-
+        .container{
+            width: 700px;
+            height: 47px;
+            border: 1px;
+            padding-top: 16.5px;
+            padding-bottom: 16.5px;
+            border-color: rgba(55, 88, 249, 1);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-left: 50px;
+            margin-right: 50px;
+            
         }
 
-        .section4{
-            width:45px;
-            height: 26px;
-            padding: 17px;
-            left:1000px;
-            font-family: 'Inter';
-            font-weight: 500;
-            font-size:15px;
-            line-height: 26px;
-
-        }
+       
     </style>
 </head>
 <body>
@@ -80,10 +67,25 @@
         <div class="section4">
             Action
         </div>
+    </div>
+    <div class="row">
+        <div class="container">
+            <div class="name">
 
-        <!-- <div class="row">
+            </div>
 
-        </div> -->
+            <div class="status">
+
+            </div>
+
+            <div class="role">
+
+            </div>
+
+            <div class="action">
+
+            </div>
+        </div>
     </div>
 </body>
 </html>
