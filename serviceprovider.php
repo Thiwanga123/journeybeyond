@@ -103,10 +103,10 @@
             <table>
                 <thead>
                     <tr>
-                        <th>TripID</th>
-                        <th>TravelerName</th>
-                        <th>TravelerID</th>
-                        <th>View</th>
+                        <th>ProviderID</th>
+                        <th>ProviderName</th>
+                        <th>Servicetype</th>
+                        <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
