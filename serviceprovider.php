@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trips</title>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="serviceprovider.css">
 </head>
 <body>
@@ -33,11 +33,6 @@
             <div class="header-title">
                 <h2>Service Provider Section</h2>
             </div>
-            <!-- <div class="header-search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder="Search here...">
-                
-            </div> -->
             <div class="header-profile">
                 <div class="notification">
                     <i class="fa-regular fa-bell"></i>

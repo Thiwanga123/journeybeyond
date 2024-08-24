@@ -19,6 +19,7 @@ $bottomText;
             gap: 10px;
             color:rgba(255,255,255,1);
             box-shadow:0px 1px 3px 0px rgba(166,175,195,0.4);
+            background-color: #FEFFFF;
             display: flex;
             flex-direction: column;
 
