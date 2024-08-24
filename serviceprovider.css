@@ -1,10 +1,4 @@
-/* :root{
-    charlestonGreen: #17252A;
-    DeepTail: #2B7A78;
-    MadiumTeal:#3AAFA9;
-    PaleTeal:#3EF2F1;
-    GhostWhite:#FEFFFF;
-} */
+
 
 body {
     font-family: Arial, sans-serif;
@@ -88,25 +82,7 @@ header {
 }
 
 
-/* .header-search {
-    position: relative;
-    display: flex;
-    align-items: center;
-}
 
-.header-search i {
-    position: absolute;
-    left: 10px;
-    color: #2B7A78;
-    font-size: 16px;
-}
-
-.header-search input {
-    padding: 10px 10px 10px 35px; 
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    width: 300px;
-} */
 
 .header-profile {
     display: flex;
@@ -136,86 +112,6 @@ header {
     /* opacity: 0.9; */
 }
 
-/* .card1 {
-    display:grid;
-    grid-template-columns: 1fr, 1fr;
-    grid-template-rows: auto auto;
-    padding: 20px,50px;
-    padding-right: 10px;
-    gap:5px;
-    background-color:#5A8CFF;
-    border-radius: 10px;
-    justify-content: space-between;
-    flex: 1;
-    font-size: 24px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-} */
-
-/* .accomadator .text1{
-    Accomadators
-}
-
-.card1 .count,.card2 .count,.card3 .count,.card4 .count{
-    display: flex;
-    grid-column: span 2;
-    justify-content: center;
-} */
-
-/* .card1 .count p,.card2 .count p,.card3 .count p,.card4 .count p {
-    justify-content: center;
-    margin-right: 10px;
-    font-size: 50px;
-    margin: 0;
-    padding-bottom: 10px;
-   
-}
-.card2 {
-    display: grid;
-    background-color:#bd4e84;
-    font-size: 24px;
-    border-radius: 10px;
-    grid-template-columns: 1fr, 1fr;
-    grid-template-rows: auto auto;
-    padding: 20px,50px;
-    padding-right: 10px;
-    gap:5px;
-    flex: 1;
-    justify-content: space-between;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.card1 i,.card2 i,.card3 i, .card4 i{
-    padding-top: 30px;
-    padding-left:10px ;
-}
-.card3 {
-    display: grid;
-    background-color:#FD9A56;
-    grid-template-columns: 1fr, 1fr;
-    grid-template-rows: auto auto;
-    border-radius: 10px;
-    padding: 20px,50px;
-    padding-right: 10px;
-    gap:5px;
-    font-size: 24px;
-    justify-content: space-between;
-    flex: 1;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-.card4 {
-    display: grid;
-    background-color:#00B69B;
-    border-radius: 10px;
-    grid-template-columns: 1fr, 1fr;
-    grid-template-rows: auto auto;
-    padding: 20px,50px;
-    padding-right: 10px;
-    gap:5px;
-    font-size: 24px;
-    justify-content: space-between;
-    flex: 1;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-} */
 
 .charts {
     display: grid;    
