@@ -92,79 +92,12 @@
         </div>
         
         <div class="charts">
-            <div class="chart1">
-            <div class="chart2">Search the Trip</div>
-            <div class="travel-search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder="Search here...">
-                
+            <div class="table">
+            <?php
+            include 'tableofcustomer.html';?>
             </div>
-            <div class="chart3">
-            <table>
-                <thead>
-                    <tr>
-                        <th>ProviderID</th>
-                        <th>ProviderName</th>
-                        <th>Servicetype</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- Sample row -->
-                    <tr>
-                        <td>TR001</td>
-                        <td>John Doe</td>
-                        <td>U12345</td>
-                        <td><a href="#">View</a></td>
-                    </tr>
-                    <tr>
-                        <td>TR001</td>
-                        <td>John Doe</td>
-                        <td>U12345</td>
-                        <td><a href="#">View</a></td>
-                    </tr>
-                    <tr>
-                        <td>TR001</td>
-                        <td>John Doe</td>
-                        <td>U12345</td>
-                        <td><a href="#">View</a></td>
-                    </tr>
-                    <tr>
-                        <td>TR001</td>
-                        <td>John Doe</td>
-                        <td>U12345</td>
-                        <td><a href="#">View</a></td>
-                    </tr>
-                    <tr>
-                        <td>TR001</td>
-                        <td>John Doe</td>
-                        <td>U12345</td>
-                        <td><a href="#">View</a></td>
-                    </tr>
-                    <tr>
-                        <td>TR001</td>
-                        <td>John Doe</td>
-                        <td>U12345</td>
-                        <td><a href="#">View</a></td>
-                    </tr>
-                    <tr>
-                        <td>TR001</td>
-                        <td>John Doe</td>
-                        <td>U12345</td>
-                        <td><a href="#">View</a></td>
-                    </tr>
-                    <tr>
-                        <td>TR001</td>
-                        <td>John Doe</td>
-                        <td>U12345</td>
-                        <td><a href="#">View</a></td>
-                    </tr>
-                    <!-- Additional rows would be populated dynamically -->
-                </tbody>
-            </table>
-        </div>
        
-        </div>  
+       
         <div class="notice">
             <!-- <h3>Details Of the Trip</h3> -->
             <form id="trip-details-form">
@@ -209,6 +142,6 @@
                 }
             }
             </script>
-    </div>
+    <!-- </div> -->
 </body>
 </html>

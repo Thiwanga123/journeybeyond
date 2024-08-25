@@ -3,8 +3,8 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f7f8fa;
+    padding-bottom: 0;
+    background-color:rgb(189, 220, 230);
 }
 
 .sidebar {
@@ -62,9 +62,10 @@ body {
 
 .main-content {
     margin-left: 290px;
-    padding: 20px;
-    height: 100%;
-    margin-bottom: 10px;
+    padding: 10px;
+    /* height: 100%; */
+    margin-bottom:0px;
+    padding-right: 20px;
 }
 
 header {
@@ -118,7 +119,8 @@ header {
     /* justify-content:space-between; */
     gap: 20px;
     grid-template-columns: 1fr ,1fr;
-    align-items: start;
+    /* align-items: start; */
+    width: 500px;
     
 }
 
@@ -130,7 +132,7 @@ header {
     margin-right: 10px;
     justify-content: space-between;
     height: 85%;
-    width: 90%;
+    width: 80%;
     margin-bottom: 0px;
     
 }
@@ -257,9 +259,10 @@ header {
     line-height: 1.5;
     grid-column:  2;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     height: 70%;
     padding-bottom: 70px;
+    width:300px;
 }
 
 .notice h3 {
