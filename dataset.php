@@ -3,7 +3,7 @@ $color1;
 $imagePath;
 $text1;
 $text2; 
-$bottomText;
+
 ?>
 
 <!DOCTYPE html>
