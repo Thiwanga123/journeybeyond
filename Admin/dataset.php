@@ -85,7 +85,7 @@ $bottomText;
         }
 
         .text1{
-            width: 92px;
+            width: 200px;
             height: 24px;
             font-size: 16px;
             line-height: 24px;

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="new_dashboard.css">
     
 </head>
 <body>
@@ -49,31 +50,60 @@
         </header>
 
         <div class="dashboard-cards">
-            <div class="card1">
-                <i class="fa-solid fa-route"></i>
-                <h3>Total Trips</h3>
-                
+            <div class="Total trips">
+                    <?php 
+                    
+                    $color1 = '#C814F6'; 
+                    $text1 = 'Total trips'; 
+                    $text2 = 'All'; 
+                    $bottomText = '1,500'; 
+                    $borderColor = '#13C296';
+                    // $imagePath=<i class="fa-solid fa-route"></i>;
+                    include 'dataset.php'; 
+                    ?>                
             </div>
-            <div class="card2">
-                <i class="fa-solid fa-coins"></i>
-                <h3>Total Income</h3>
-                
+            
+            <div class="Total Travelers">
+                    <?php 
+                    
+                    $color1 = '#6D28D9'; 
+                    $text1 = 'Total Travelers'; 
+                    // $text2 = 'All'; 
+                    $bottomText = '1,500'; 
+                    $borderColor = '#13C296';
+                    // $imagePath=<i class="fa-solid fa-route"></i>;
+                    include 'dataset.php'; 
+                    ?>                
             </div>
-            <div class="card3">
-                <i class="fa-solid fa-person-hiking"></i>
-                <h3>Total Travelers</h3>
-                
+            <div class="Total Service Providers">
+                    <?php 
+                    
+                    $color1 = '#1C3FB7'; 
+                    $text1 = 'Total Service Providers'; 
+                    $text2 = 'All'; 
+                    $bottomText = '1,500'; 
+                    $borderColor = '#13C296';
+                    // $imagePath=<i class="fa-solid fa-route"></i>;
+                    include 'dataset.php'; 
+                    ?>                
             </div>
-            <div class="card4">
-                <i class="fa-solid fa-users"></i>
-                <h3>Total Service Providers</h3>
-                
+
+            <div class="Total Income">
+                    <?php 
+                    
+                    $color1 = '#0B76B7'; 
+                    $text1 = 'Total Income'; 
+                    $text2 = 'All'; 
+                    $bottomText = '1,500'; 
+                    $borderColor = '#13C296';
+                    // $imagePath=<i class="fa-solid fa-route"></i>;
+                    include 'dataset.php'; 
+                    ?>                
             </div>
         </div>
 
         <div class="charts">
-            <div class="chart">Total Revenue</div>
-            <div class="chart">Customer Satisfaction</div>
+            
             <div class="calendar">
                 <div id="calendar-header">
                     <button id="prev-month">‹</button>
@@ -99,8 +129,7 @@
                 </table>
             </div>
             
-            <div class="chart">Sales Mapping by Country</div>
-            <div class="chart">Volume vs Service Level</div>
+            
            
         </div>
     </div>

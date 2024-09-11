@@ -1,16 +1,10 @@
-:root{
-    charlestonGreen: #17252A;
-    DeepTail: #2B7A78;
-    MadiumTeal:#3AAFA9;
-    PaleTeal:#3EF2F1;
-    GhostWhite:#FEFFFF;
-}
+
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f8fa;
+    background-color: #eaedf1;
 }
 
 .sidebar {
@@ -136,7 +130,7 @@ header {
     gap: 5px;
 }
 
-.chart1{
+/* .chart1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -148,8 +142,8 @@ header {
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-.calendar {
+} */
+ .calendar {
     background-color: #892020;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
