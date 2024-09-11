@@ -127,53 +127,7 @@ header {
     color: #3AAFA9;
 }
 
-.dashboard-cards {
-    display: flex;
-    gap: 20px;
-    margin-bottom: 30px;
-    opacity: 0.9;
-}
 
-.card1 {
-    display:flex;
-    background-color:#5A8CFF;
-    border-radius: 10px;
-    padding:20px;
-    justify-content: space-between;
-    flex: 1;
-    font-size: 24px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-.card2 {
-   display: flex;
-    background-color:#bd4e84;
-    font-size: 24px;
-    border-radius: 10px;
-    padding: 20px;
-    flex: 1;
-    justify-content: space-between;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-.card3 {
-    display: flex;
-    background-color:#FD9A56;
-    border-radius: 10px;
-    padding: 20px;
-    font-size: 24px;
-    justify-content: space-between;
-    flex: 1;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-.card4 {
-    display: flex;
-    background-color:#00B69B;
-    border-radius: 10px;
-    padding: 20px;
-    justify-content:flex-end;
-    font-size: 20px;
-    flex: 1;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
 
 .charts {
     display: grid;
@@ -196,14 +150,15 @@ header {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .calendar {
-    background-color: #fff;
+    background-color: #892020;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
     text-align: center;
     flex: 1;
     margin-top: 10px;
-    margin-left: 80px;
+   
+    
     
 }
 
