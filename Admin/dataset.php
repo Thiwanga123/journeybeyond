@@ -14,7 +14,7 @@ $bottomText;
         .Datasection{
             width:250px;
             height:120px;
-            border-radius: 5px;
+            border-radius: 20px;
             padding: 20px;
             gap: 10px;
             color:rgba(255,255,255,1);
