@@ -10,20 +10,8 @@
 </head>
 <body>
     <div class="sidebar">
-        <div class="logo">
-            <!-- <img src="logo.jpg" > -->
-            <h2>JOURNEY BEYOND</h2>
-        </div>
-        <ul>
-            <li class="active"><i class="fas fa-tachometer-alt"></i> Dashboard</li>
-            <li><i class="fa-solid fa-location-dot"></i>Trips</li>
-            <li><i class="fa-solid fa-users"></i> Service Providers</li>
-            <li><i class="fa-solid fa-suitcase-rolling"></i>Travelers</li>
-            <li><i class="fas fa-file-alt"></i> Income Report</li>
-            <li><i class="fas fa-envelope"></i> Messages</li>
-            <li><i class="fas fa-cog"></i> Settings</li>
-            <li><i class="fas fa-sign-out-alt"></i> Sign Out</li>
-        </ul>     
+        <? include '../Journey Beyond/sidebar.php'; 
+        ?>
     </div>
 
     <div class="main-content">
