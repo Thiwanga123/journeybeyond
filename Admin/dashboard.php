@@ -7,32 +7,24 @@
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="new_dashboard.css">    
+    <link rel="stylesheet" href="../Journey Beyond/CSS/Index.css">
+    <style>
+    .sidebar .logo img {
+            content: url('../Journey Beyond/Images/Logo1.png');
+        }
+    </style>
 </head>
 <body>
-    <div class="sidebar">
-        <? include '../Journey Beyond/sidebar.php'; 
+    
+        <?php 
+           include '../Journey Beyond/sidebar.php';
         ?>
-    </div>
+   
 
     <div class="main-content">
-        <header>
-            <div class="header-title">
-                <h2>Admin Dashboard</h2>
-            </div>
-            <div class="header-search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder="Search here...">
-                
-            </div>
-            <div class="header-profile">
-                <div class="notification">
-                    <i class="fa-regular fa-bell"></i>
-                </div>
-                <div class="profile-pic">
-                    <i class="fa-solid fa-user-large"></i>
-                </div>
-            </div>
-        </header>
+         <?php
+           include '../Journey Beyond/navbar.php';
+        ?>
 
         <div class="dashboard-cards">
             <div class="Total trips">
@@ -109,7 +101,7 @@
                     </thead>
                     <tbody id="calendar-body">
                         <script src="calendar.js"></script>
-
+                        <script src="../Journey Beyond/JS Scripts/Sidebar.js"></script>
                     </tbody>
                 </table>
             </div>

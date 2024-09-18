@@ -35,7 +35,7 @@ html{
 
 body{
     background: var(--grey);
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .sidebar{
@@ -182,7 +182,7 @@ body{
 .content{
     position: relative;
     width: calc(100% - 200px);
-    left: 200px;
+    padding-left: 200px;
     transition: all 0.3s ease;
 }
 
