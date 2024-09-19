@@ -114,11 +114,15 @@
     padding-bottom: 12px;
     font-size: 14px;
     text-align: left;
+    padding-left: 6px;
+    color: var(--light-primary);
     border-bottom: 1px solid var(--light-success);
 }
 
 .content main .bottom-data .orders table td{
     padding: 16px 0;
+    padding-left: 6px;
+    text-align: left;
 }
 
 .content main .bottom-data .orders table tr td:first-child{
@@ -161,4 +165,170 @@
 
 .content main .bottom-data .orders table tbody tr td .status.cancelled{
     background: rgb(255, 50, 50);
+}
+
+.action-buttons {
+    display: flex;
+    gap: 5px;
+}
+.action-buttons button {
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.3s ease;
+}
+
+.view-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.view-btn:hover {
+    background-color: #45a049;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
+
+.reminders{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.reminders .header{
+    display: flex;
+    align-items: center;
+}
+.reminders .header svg{
+    cursor: pointer;
+}
+
+.reminders .update-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reminders .update-list .update{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reminders .update-list .update img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.reminders .update-list .update .update-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reminders .update-list .update .update-info .name-info{
+    font-weight: bold;
+}
+
+.reminders .update-list .update .update-info .service-info{
+    font-size: 12px;
+    color: #666;
+}
+
+.reminders .update-list .update .update-info .action-buttons{
+    display: flex;
+}
+
+.reminders .update-list .update .update-info .action-buttons button {
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.3s ease;
+}
+
+.reminders .update-list .update .update-info .action-buttons .view-btn {
+    background-color: #4CAF50;
+    
+
+}
+
+.reminders .update-list .update .update-info .action-buttons .view-btn:hover {
+    background-color: #5fd265;
+}
+
+.reminders .update-list .update .update-info .action-buttons .reject-btn {
+    background-color: #e75147;
+    color: white;
+}
+
+.reminders .update-list .update .update-info .action-buttons .reject-btn:hover {
+    background-color: #d46161;
+}
+
+.reminders .update-list .update .update-info .action-buttons .approve-btn {
+    background-color: #2196F3;
+    color: white;
+}
+
+.reminders .earnings-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reminders .earnings-image img{
+    width: 100%;
+    height: auto;
+    height: 200px;
+}
+
+.reminders .update-list .update .update-info .action-buttons .approve-btn:hover {
+    background-color: #1e88e5;
+}
+@media screen and (max-width: 1200px) {
+    .reminders .update-list .update {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .reminders .update-list .update .update-info {
+        margin-top: 10px;
+    }
+
+    .reminders .update-list .update .update-info .action-buttons {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reminders .update-list .update .update-info .action-buttons {
+        flex-direction: column;
+    }
+
+    .reminders .update-list .update .update-info .action-buttons button {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .reminders .update-list .update .update-info .name-info,
+    .reminders .update-list .update .update-info .service-info {
+        font-size: 14px;
+    }
+
+    .reminders .update-list .update .update-info .action-buttons button {
+        font-size: 10px;
+        padding: 3px 8px;
+    }
 }
