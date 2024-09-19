@@ -63,6 +63,12 @@ a{
     max-width: 400px;
     padding: 25px;
     border-radius: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+}
+
+.container .left .login-box:hover{
+    box-shadow: none;
 }
 
 .container .left .login-box form{
