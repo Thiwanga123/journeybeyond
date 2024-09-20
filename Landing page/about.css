@@ -87,12 +87,14 @@ header .navbar .SignUp{
 .Hero .hero-content span{
     color: teal;
 }
-
+ main{
+    background-color: #FFFFFF;
+ }
 main .hero-content {
-    background-image: url('/Journey Beyond/Images/pexels-domenicobertazzo-4769075.jpg'); /* Update with your image path */
+    background-image: url('/Journey Beyond/Images/36972092396_76fb34d3d0_h.jpg'); /* Update with your image path */
     background-size: cover; 
     background-repeat: no-repeat;
-    height: 400px; 
+    height: 550px; 
     width:100%;
     display: flex;
     flex-direction: column;
@@ -114,6 +116,7 @@ main  .about{
     display: flex;
     flex-direction: row;
     padding-top:30px;
+    margin-bottom: 40px;
 
    
 }
@@ -160,10 +163,83 @@ main .about .image{
 }
 
 
+main .features{
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    
+    
+}
+
+main .features .topic{
+    margin-top: 20px;
+}
+
+main .features .topic span{
+    color: teal;
+    font-family: 'Island Moment', cursive;
+    font-size: 30px;
+}
+
+main .features .topic h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
 
 
+main .features .boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 10px;
+}
+main .features .boxes .box{
+    width: 262px;
+    height: 182px;
+    display: flex;
+    margin-right: 50px;
+    padding-left: 10px;
+    flex-direction: column;
+    border-radius: 16px;
+    border-left: none;
+    border-top: none;
+    border-right: 1px solid #3AAFA9;
+    border-bottom: 1px solid #3AAFA9;
+    
+}
 
+main .features .boxes .box .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #3AAFA9;
+}
+ main .features .boxes .box .icon img{
+    width: 32px;
+    height: 32px;
+   
+ }
 
+ main .features .boxes .box h3{
+    font-size: 18px;
+    margin-bottom: 5px; 
+    font-family: 'Montserrat', sans-serif;
+ }
+
+ main .features .boxes .box p{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color:#6E7074;
+ }
 
 
 
