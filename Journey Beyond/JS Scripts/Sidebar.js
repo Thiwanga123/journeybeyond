@@ -10,15 +10,27 @@ document.addEventListener('DOMContentLoaded', function() {
                     return;
                 }
             }
+<<<<<<< HEAD
             sideLinks.forEach(i => i.parentElement.classList.remove('active'));
             li.classList.add('active');
         });
+=======
+        }
+
+<<<<<<< HEAD
+        sideLinks.forEach(i => i.parentElement.classList.remove('active'));
+        li.classList.add('active');
+=======
+
+>>>>>>> 56af53e7d20ef3562155300bb4d14997589438b9
+>>>>>>> Ushan
     });
 
     const sideBar = document.querySelector('.sidebar');
     const content = document.querySelector('.content');
     const menuButtons = document.querySelectorAll('.menu');
 
+<<<<<<< HEAD
     if (sideBar && content && menuButtons.length > 0) {
         menuButtons.forEach(menuButton => {
             menuButton.addEventListener('click', () => {
@@ -30,3 +42,24 @@ document.addEventListener('DOMContentLoaded', function() {
         console.error('Sidebar, content, or menu elements not found');
     }
 });
+=======
+const sideBar = document.querySelector('.sidebar');
+const menuButtons = document.querySelectorAll('.menu');
+<<<<<<< HEAD
+menuButtons.forEach(menuButton => {
+    menuButton.addEventListener('click', () => {
+        sideBar.classList.toggle('close');
+=======
+
+if (localStorage.getItem('sidebarState') === 'closed') {
+    sideBar.classList.add('close');
+}
+
+menuButtons.forEach(menuButton => {
+    menuButton.addEventListener('click', () => {
+        sideBar.classList.toggle('close');
+        localStorage.setItem('sidebarState', sideBar.classList.contains('close') ? 'closed' : 'open');
+>>>>>>> 56af53e7d20ef3562155300bb4d14997589438b9
+    });
+});
+>>>>>>> Ushan
