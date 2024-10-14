@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaedf1;
+}
+
+.main-content {
+    margin-left: 200px; /* Adjust this to match your sidebar width */
+    padding: 20px;
+    transition: margin-left 0.3s ease;
+}
+
+.sidebar.close ~ .main-content {
+    margin-left: 60px; /* Adjust this to match your closed sidebar width */
+}
+
+.dashboard-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.dashboard-cards > div {
+    flex: 1;
+    min-width: 200px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.charts {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.calendar {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#calendar-title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#prev-month, #next-month {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #5A8CFF;
+}
+
+#calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#calendar-table th, #calendar-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#calendar-table th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#calendar-table td {
+    height: 30px;
+    transition: background-color 0.3s ease;
+}
+
+#calendar-table td:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .main-content {
+        margin-left: 60px;
+    }
+    
+    .dashboard-cards > div {
+        min-width: 100%;
+    }
+}
