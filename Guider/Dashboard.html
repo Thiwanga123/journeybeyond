@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .dashboard {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .header {
+            font-size: 2em;
+            color: #00796b;
+            margin-bottom: 20px;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .stat {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+            margin: 0 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        .stat h3 {
+            margin: 10px 0;
+        }
+        .stat i {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #fff;
+            padding: 10px;
+            border-radius: 50%;
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .stat:nth-child(1) i {
+            background-color: #4caf50;
+        }
+        .stat:nth-child(2) i {
+            background-color: #03a9f4;
+        }
+        .stat:nth-child(3) i {
+            background-color: #8bc34a;
+        }
+        .stat:nth-child(4) i {
+            background-color: #00bcd4;
+        }
+        .orders, .updates {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .orders table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .orders th, .orders td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .status {
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: #fff;
+            display: inline-block;
+        }
+        .completed {
+            background-color: #4caf50;
+        }
+        .pending {
+            background-color: #ffeb3b;
+            color: #000;
+        }
+        .cancelled {
+            background-color: #f44336;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="header">Dashboard</div>
+        <div class="stats">
+            <div class="stat">
+                <i class="fas fa-box"></i>
+                <h3>9</h3>
+                <p>Total Bookings</p>
+            </div>
+            <div class="stat">
+                <i class="fas fa-eye"></i>
+                <h3>21</h3>
+                <p>Responds to Bookings</p>
+            </div>
+            <div class="stat">
+                <i class="fas fa-rupee-sign"></i>
+                <h3>Rs. 30,000</h3>
+                <p>Earnings Received</p>
+            </div>
+            <div class="stat">
+                <i class="fas fa-list"></i>
+                <h3>2</h3>
+                <p>Guider Availability</p>
+            </div>
+        </div>
+        <div class="orders">
+            <h3>Recent Orders</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Customer</th>
+                        <th>Order Date</th>
+                        <th>Booking</th>
+                        <th>Quantity</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>21-08-2024</td>
+                        <td>Booking A</td>
+                        <td>4</td>
+                        <td><span class="status completed">Completed</span></td>
+                    </tr>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>14-07-2024</td>
+                        <td>Booking B</td>
+                        <td>10</td>
+                        <td><span class="status pending">Pending</span></td>
+                    </tr>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>01-01-2024</td>
+                        <td>Booking A</td>
+                        <td>4</td>
+                        <td><span class="status cancelled">Cancelled</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="updates">
+            <h3>Recent Updates</h3>
+            <!-- Add content here -->
+        </div>
+    </div>
+</body>
+</html>
