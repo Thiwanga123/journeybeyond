@@ -1,6 +1,4 @@
-<?php 
-    include '../Connection.php';
-?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -25,19 +23,21 @@
 
             <div class="login-box">
                 <h1>Login</h1>
-                <form>
-                    <label for="email">Email / Username</label>
-                    <input type="email" id="email" name="email" required>
+                <form action="<?php echo URLROOT; ?>/users/login" method="POST">
+                <label for="email">Email / Username</label>
+                <input type="email" id="email" name="email" required value="<?php echo isset($data['email']) ? $data['email'] : ''; ?>">
+                <span class="form-invalid"><?php echo isset($data['email_err']) ? $data['email_err'] : ''; ?></span>
 
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password"required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required value="<?php echo isset($data['password']) ? $data['password'] : ''; ?>">
+                <span class="form-invalid"><?php echo isset($data['password_err']) ? $data['password_err'] : ''; ?></span>
 
-                    <div class="forgot-password">
-                        <a href="#">Forgot password?</a>
-                    </div>
+                <div class="forgot-password">
+                    <a href="#">Forgot password?</a>
+                </div>
 
-                    <button type="submit" class="login-btn">Login</button>
-                </form>
+        <button type="submit" class="login-btn">Login</button>
+    </form>
 
             </div>
 
